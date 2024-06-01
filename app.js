@@ -73,7 +73,7 @@ app.get('/ubicacion', async (req, res) => {
   }
   const config = {
   headers: {
-    'Referer': 'https://curriculum-upeh.onrender.com', // Establece el Referer personalizado
+    'Referer': 'https://p2-31375085-mbbc.onrender.com', // Establece el Referer personalizado
     'User-Agent': 'BetaniaCurriculum' // Establece el User-Agent personalizado
   },
   timeout: 60000 // 60 segundos
