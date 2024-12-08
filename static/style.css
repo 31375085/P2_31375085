@@ -1,0 +1,178 @@
+body{
+    background-color:#F3E3D3;
+    max-width: 900px;
+    min-width: 500px;
+    padding: 0% 20%;
+}
+
+#bod{
+    width: 100%;
+    height: 100%;
+
+    background-color: #223135;
+
+
+}
+
+h1,h2,h3{
+    display: block;
+    
+    color: #F3E3D3;
+}
+
+li:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+    border-top: 5px;
+    border-bottom: 5px;
+}
+form{
+    border: 2px solid #59554C;
+    width: 89,8%;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    color: #BE984A;
+}
+
+.button{
+    
+    box-sizing: border-box;
+    background-color: #F2EFDF;
+    width: 49%;
+    color: #59554C;
+    border:solid 1px #59554C;
+}
+
+.button:hover{
+    transition: .5s;
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid #BE984A;
+}
+
+#beta{
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.swal-text{
+background-color: red ;
+color: green;
+}
+
+
+#head{
+    padding-top: 1%;
+    padding-bottom: .5%;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    border: 2px solid #59554C;
+    
+    flex-direction: row;
+    
+}
+
+.block{
+    border-top: 3px solid #59554C;
+    width: 100%;
+    color: #BE984A;
+    
+}
+
+aside{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 100%;
+    border-right: solid 2px #59554C;
+    color: #BE984A;
+}
+
+aside:nth-child(1){
+    
+    border-right: 2px solid #59554C;
+    border-left: 2px solid #59554C;
+    
+}
+
+p{
+    text-align: justify;
+}
+
+
+.h2r{
+    padding-left: 5%;
+    
+}
+
+
+
+main{
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.inp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input{
+    background-color: #F3E3D3;
+    margin-right: 0px;
+    width: 80%;
+    color:  #59554C;
+}
+
+input:hover{
+    transition: .5s;
+    background-color:aliceblue;
+
+}
+
+input:focus{
+    border-top: 5px;
+    outline: 2px solid #BE984A;
+    background-color:aliceblue;
+    color:  #59554C;
+    transition: .5s;
+    transform: scale(1.1);
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    background-color: #9CBCB7;
+}
+
+.redesimg{
+    margin-top: 5px;
+    margin-bottom: -9px;
+    padding-left: 10%;
+    height: 30px;
+    
+}
+
+
+
+a{
+    line-height: 30px;
+    text-decoration: none;
+    color: #BE984A;
+    align-items: center;
+}
